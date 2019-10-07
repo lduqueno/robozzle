@@ -58,7 +58,7 @@ public class Robozzle extends Application {
 
             FileChooser chooser = new FileChooser();
             chooser.setTitle("Choisissez un puzzle");
-            File file = new File(System.getenv("APPDATA"), "Robozzle");
+            File file = new File("Maps");
             if(!file.exists())
                 file.mkdirs();
             chooser.setInitialDirectory(file);
