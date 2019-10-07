@@ -192,7 +192,6 @@ public class PuzzleRenderer {
                                 } else {
                                     step = stepFromActionType(actionType, actualColor);
                                     step.draw(root, selectionnedRectangle);
-                                    System.out.println("Function is now " + step.getClass().getSimpleName());
                                 }
                                 break;
                         }
